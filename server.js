@@ -2,7 +2,10 @@ const express = require('express');
 
 const path = require('path');
 const app = express();
+const addRequestId = require('express-request-id')();
+ 
 
+app.use(addRequestId);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -17,7 +20,8 @@ const routes = require('./routes');
 app.use(routes);
 
 
-
-// app.use(express.static('public'));
+//dont know what this does yet
+// ans: this gets all files inside public folder
+app.use(express.static('public'));
 
 app.listen(PORT);
