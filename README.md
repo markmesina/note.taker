@@ -6,14 +6,18 @@ users need to keep track of a lot of information, it's easy to forget or be unab
 
 
 # TECHNOLOGIES
-Node.js
-Express.js
-Heroku
+* http
+* Express.js
+* Routing
+* Postman
+* HTTP POST requests
+* Express.static()
+* Node.js
 
 # COLLABORATORS
 
 This project was developed with the help and advice of the following:
-
-Armande Millhouse
-Adrian Romero
-Mark Younan
+#nerdGang
+* Armande Millhouse
+* Adrian Romero
+* Mark Younan
